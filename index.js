@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
     res.send('Welcome to the Product API')
 })
 
-app.use('/products', productRouter)
+app.use('/productos', productRouter)
 
 app.use(handleError)
 

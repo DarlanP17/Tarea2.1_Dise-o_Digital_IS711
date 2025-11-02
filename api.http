@@ -1,11 +1,11 @@
 ###Listar todos los productos
-GET http://localhost:3000/products
+GET http://localhost:3000/productos
 
 ###Obtener un producto por ID
-GET http://localhost:3000/products/1
+GET http://localhost:3000/productos/1
 
 ###Agregar un nuevo producto
-POST http://localhost:3000/products
+POST http://localhost:3000/productos
 Content-Type: application/json
 
 {
@@ -16,7 +16,7 @@ Content-Type: application/json
 }
 
 ###Actualizar un producto por ID
-PUT http://localhost:3000/products/1
+PUT http://localhost:3000/productos/1
 Content-Type: application/json
 
 {
@@ -27,7 +27,7 @@ Content-Type: application/json
 }
 
 ###Eliminar un producto por ID
-DELETE http://localhost:3000/products/1
+DELETE http://localhost:3000/productos/1
 
 ###Productos disponibles
-GET http://localhost:3000/products/disponibles
+GET http://localhost:3000/productos/disponibles
