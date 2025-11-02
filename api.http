@@ -1,0 +1,33 @@
+###Listar todos los productos
+GET http://localhost:3000/products
+
+###Obtener un producto por ID
+GET http://localhost:3000/products/1
+
+###Agregar un nuevo producto
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+    "nombre": "camisa",
+    "precio": 10,
+    "descripcion": "Combate el mal olor corporal",
+    "disponible": true
+}
+
+###Actualizar un producto por ID
+PUT http://localhost:3000/products/1
+Content-Type: application/json
+
+{
+    "nombre": "desodorante",
+    "precio": 120,
+    "descripcion": "Combate el mal olor corporal",
+    "disponible": true
+}
+
+###Eliminar un producto por ID
+DELETE http://localhost:3000/products/1
+
+###Productos disponibles
+GET http://localhost:3000/products/disponibles

@@ -1,0 +1,24 @@
+{
+  "name": "tarea2.1_dise-o_digital_is711",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarlanP17/Tarea2.1_Dise-o_Digital_IS711.git"
+  },
+  "author": "Darlan Perdomo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DarlanP17/Tarea2.1_Dise-o_Digital_IS711/issues"
+  },
+  "homepage": "https://github.com/DarlanP17/Tarea2.1_Dise-o_Digital_IS711#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "zod": "^4.1.12"
+  }
+}
